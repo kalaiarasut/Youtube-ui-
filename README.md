@@ -9,7 +9,6 @@ A responsive YouTube homepage clone built with HTML and CSS.
 - Clean header with search functionality
 - Navigation sidebar
 - Responsive video grid layout
-- Hover tooltips
 - Video thumbnails with duration overlay
 
 ## Files
