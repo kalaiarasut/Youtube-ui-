@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class='youtube-container'>
+      <header class='main-header'>
+        <div class='header-left'>
+          <img class='menu-icon' src='./hamburger-menu.svg' />
+          <img class='logo' src='./youtube-logo.svg' />
+        </div>
+
+        <div class='header-middle'>
+          <input class='search-input' type='text' placeholder='Search' />
+          <button class='search-btn tooltip-container'>
+            <img src='./search.svg' />
+            <div class='tooltip'>Search</div>
+          </button>
+          <button class='voice-btn tooltip-container'>
+            <img src='./voice-search-icon.svg' />
+            <div class='tooltip'>Search with your voice</div>
+          </button>
+        </div>
+
+        <div class='header-right'>
+          <div class='tooltip-container'>
+            <img class='header-icon' src='./upload.svg' />
+            <div class='tooltip'>Create</div>
+          </div>
+          <div class='tooltip-container'>
+            <img class='header-icon' src='./youtube-apps.svg' />
+            <div class='tooltip'>YouTube apps</div>
+          </div>
+          <div class='tooltip-container'>
+            <img class='header-icon' src='./notifications.svg' />
+            <div class='notification-count'>3</div>
+            <div class='tooltip'>Notifications</div>
+          </div>
+          <img class='profile-pic' src='./16.jpg' />
+        </div>
+      </header>
+
+      <nav class='navigation-sidebar'>
+        <div class='nav-item'>
+          <img src='./hamburger-menu.svg' />
+          <div>Home</div>
+        </div>
+        <div class='nav-item'>
+          <img src='./search.svg' />
+          <div>Explore</div>
+        </div>
+        <div class='nav-item'>
+          <img src='./notifications.svg' />
+          <div>Subscriptions</div>
+        </div>
+        <div class='nav-item'>
+          <img src='./upload.svg' />
+          <div>Originals</div>
+        </div>
+        <div class='nav-item'>
+          <img src='./youtube-apps.svg' />
+          <div>YouTube Music</div>
+        </div>
+        <div class='nav-item'>
+          <img src='./voice-search-icon.svg' />
+          <div>Library</div>
+        </div>
+      </nav>
+
+      <main class='main-content'>
+        <section class='videos-container'>
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./1.jpg' />
+              <div class='duration'>14:20</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./11.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Give me 180 secs and CODING will be your addiction.
+                </p>
+                <p class='channel-name'>
+                  TECHNETIUM
+                </p>
+                <p class='video-stats'>
+                  2.1 lakh views &#183; 1 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./2.jpg' />
+              <div class='duration'>8:22</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./12.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Neeya Naana - கருப்பட்டி காபி SCAM?!! 😰 Franchise ❌ = MLM ✅
+                </p>
+                <p class='channel-name'>
+                  A2D
+                </p>
+                <p class='video-stats'>
+                  1 lakh views &#183; 1 hour ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./3.jpg' />
+              <div class='duration'>9:13</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./13.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Fastest MacBook Pro vs an RTX 5090 Laptop
+                </p>
+                <p class='channel-name'>
+                  Hardware Canucks
+                </p>
+                <p class='video-stats'>
+                  1 lakh views &#183; 1 hour ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./4.jpg' />
+              <div class='duration'>22:09</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./14.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  GRILLED CHICKEN WINGS | Juicy BBQ Chicken Wings Grilled in Village | Smoky Charcoal Chicken Recipe
+                </p>
+                <p class='channel-name'>
+                  Village Cooking Channel
+                </p>
+                <p class='video-stats'>
+                  1 lakh views &#183; 1 hour ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./5.jpg' />
+              <div class='duration'>11:17</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./15.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Programming Tutorial: Build Your First App
+                </p>
+                <p class='channel-name'>
+                  Code Academy
+                </p>
+                <p class='video-stats'>
+                  519K views &#183; 5 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./6.jpg' />
+              <div class='duration'>19:59</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./16.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Amazing Life Hacks That Actually Work
+                </p>
+                <p class='channel-name'>
+                  LifeHack Pro
+                </p>
+                <p class='video-stats'>
+                  141M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>          <div class='video-item'>
+            <div class='video-thumbnail'>
+              <img class='thumbnail-img' src='./7.jpg' />
+              <div class='duration'>10:13</div>
+            </div>
+            <div class='video-details'>
+              <div class='channel-avatar'>
+                <img src='./17.jpg' />
+              </div>
+              <div class='video-text'>
+                <p class='video-title'>
+                  Nature Documentary: Wildlife Adventures
+                </p>
+                <p class='channel-name'>
+                  Nature Explorer
+                </p>
+                <p class='video-stats'>
+                  6.6M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+            
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
