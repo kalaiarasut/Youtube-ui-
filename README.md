@@ -1,5 +1,7 @@
 # YouTube Clone
 
+<img width="1897" height="909" alt="image" src="https://github.com/user-attachments/assets/2ab44956-1a23-4b8c-bdac-3888d2c0c9b6" />
+
 A responsive YouTube homepage clone built with HTML and CSS.
 
 ## Features
